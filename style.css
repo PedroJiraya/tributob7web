@@ -34,7 +34,7 @@ section{
 .container{
     display: flex;
     justify-content: center;
-    background-image: url('https://pedrojiraya.github.io/tributob7web/img1.jpg');
+    background-image: url("https://pedrojiraya.github.io/tributob7web/img1.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 10px;
