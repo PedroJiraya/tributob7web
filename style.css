@@ -1,1 +1,128 @@
 
+*{
+    box-sizing: border-box;
+}
+body{
+margin: 0px;
+padding: 0px;
+font-family:Helvetica;
+}
+.container_cab{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 0.2px solid #cfcbcb;
+}
+.title1_cab,
+.title2_cab{
+    padding: 5px;
+}
+.title1_cab{
+    color: #333333;
+    font-family: 'lobster', cursive;
+    font-size: 15px;
+}
+.title2_cab{
+    color: #337ab7;
+    font-family: 'lobster', cursive;
+    font-size: 15px;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/imgbackground.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    width: 1170px;
+    margin-top: 10px;
+    flex-direction: column;
+    padding: 20px;
+}
+.artigo{
+    display: flex;
+    min-width: 1100px;
+    background-color: #ffffff;
+    opacity: 0.8;
+    margin-top: 14px;
+    border-radius: 10px;
+    flex-direction: column;
+    
+}
+.artigo_msg{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row-reverse;
+    font-family: 'Audiowide';
+    width: 1100px;
+    font-size: 60px;
+    
+
+}
+#img_1{
+    width: 150px;
+    height: 130px;
+    border-radius: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.artigo_msg_p{
+    margin-left: 60px;
+    color: #337ab7;
+    font-size: 13px; 
+}
+.conteudo,
+.conteudo_2{
+    width: 625px;
+    background-color: #ffffff;
+    opacity: 0.8;
+    border-radius: 10px;
+    margin-top: 10px;
+    }
+    .conteudo_titulo{
+        color: #337ab7;
+        font-family: 'Audiowide';
+        font-style: italic;
+        font-size: 15px;
+        margin-left: 70px;
+    
+    } 
+    .conteudo_list ul li{
+        margin-bottom: 10px;
+        margin-left: 70px;
+        font-weight: bold;
+    }
+    .conteudo_2{
+        width:1100px;
+        display: flex;
+    }
+    .conteudo_2 img{
+        margin: 10px;
+    }
+    .barra{
+        background-color: #337ab7;
+        width: 1100px;
+        height: 50px;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+.dev{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #ffffff;
+    margin-top: 20px;
+}
+.dev_1{
+    color: #ffffff;
+    margin-top: 30px;
+
+}
+.dev_1 a{
+    text-decoration: none;
+    color: aliceblue;
+}
